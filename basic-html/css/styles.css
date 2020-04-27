@@ -1,0 +1,166 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #03A9F4;
+}
+
+.ground {
+	position: absolute;
+	bottom: 0;
+	z-index: 0;
+	height: 30%;
+	width: 100%;
+	background-color: #d4d4d4
+}
+
+.container {
+	width: 100vw;
+	height: 100vw;
+	position: relative;
+	z-index: 1;
+	display: flex; 
+	align-items; center;
+	justify-content: center;
+	top: 200px;
+}
+
+.snowperson-holder {
+	background-color: none;
+	border: 2px solid black;
+	width: 300px;
+	height: 500px;
+}
+
+.body-holder {
+	background-color: none;
+	border: dotted orange;
+	border-width:b0.3em 0 9px;
+	width: 300px;
+	height: 100px;
+}
+
+.body {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	position: absolute; 
+}
+
+.body > li {
+	background-color: white;
+	border-radius: 50%;
+	border: 2px solid black;
+	width:200px;
+	height:200px;
+}
+
+.body > li:nth-child(1) {
+	width: 125px;
+	height: 125px;
+	align-items: center;
+}
+
+.body > li:nth-child(2) {
+	width: 160px;
+	height: 160px;
+	top: -20px;
+}
+
+.body > li:nth-child(3) {
+	position: relative;
+	top: -40px;
+}
+
+.hat {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 20px;
+}
+
+.hat > div {
+  background-color: red;
+  border: 1px solid darkred;
+}
+
+.hat > div:nth-child(1) {
+  height: 100%;
+  width: 35%;
+  border-bottom-width: 20px;
+}
+
+.hat > div:nth-child(2) {
+  height: 10px;
+  width: 50%;
+}
+
+.head .eyes {
+	margin-top: 20%;
+}
+
+.head .eyes > div {
+  background-color: black;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin: 15px;
+}
+
+.head .mouth > div {
+  background-color: black;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 0 3px;
+}
+
+.head .mouth > div:nth-child(3) {
+  position: relative;
+  top: 8px;
+}
+
+.head .mouth > div:nth-child(2),
+.head .mouth > div:nth-child(4) {
+  position: relative;
+  top: 5px;
+}
+
+
+.nose {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 60px solid #f49f36;
+  margin-left: 45px;
+}
+
+.buttons {
+	list-style: none;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 1px;
+}
+
+.buttons li {
+  border-radius: 50%;
+  background-color: black;
+  width: 25px;
+  height: 25px;
+  margin-top: 15px;
+  }
+
+ .stomach {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
