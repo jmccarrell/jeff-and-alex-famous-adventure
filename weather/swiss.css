@@ -1,7 +1,7 @@
 /* Default style sheet for Markus Kuhn's web pages */
 
-body { 
-  font-family: "Verdana", "Helvetica", sans-serif;
+body {
+  font-family: "Arial", sans-serif;
   font-size: medium;
   line-height: 130%;
   background: white;
@@ -40,7 +40,7 @@ ol li ol {
 }
 
 ul.compact li, ol.compact li {
-	margin: 0ex;
+        margin: 0ex;
 }
 
 a {
@@ -65,9 +65,9 @@ blockquote.sidequote {
   margin-right: 0%;
   font-style: italic;
   text-align: right;
-}     
+}
 
-h1 { 
+h1 {
   font-family: "Trebuchet", "Helvetica", sans-serif;
   font-size: 200%;
   font-style: normal;
